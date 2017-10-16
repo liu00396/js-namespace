@@ -10,8 +10,8 @@ var LIU00396 = {
         box.addEventListener("mouseout", mouseoutlistener);
 
         function clicklistener(ev) {
-            ev.currentTarget.style.borderColor = "ff0000";
-            ev.currentTarget.style.backgroundColor = "3cd287";
+            ev.currentTarget.style.borderColor = "red";
+            ev.currentTarget.style.backgroundColor = "gray";
         }
 
         function mouseoverlistener(ev) {
@@ -23,4 +23,4 @@ var LIU00396 = {
         }
 
     }
-}
+};
